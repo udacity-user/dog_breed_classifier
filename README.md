@@ -104,13 +104,15 @@ __NOTE:__ While some code has already been implemented to get you started, you w
 
 ## Run the web app
 
-1. Go the the web_app folder
+1. On your local machine go the the web_app folder of this repository
 
 2. Execute run.py
 
 	```
 	python run.py
 	```  
+	
+3. Find the webapp in your browser [Link](http://localhost:3001/)
 
 ## Evaluation
 
