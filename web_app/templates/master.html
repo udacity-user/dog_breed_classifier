@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Dog Breed</title>
+
+		<script src="https://d14fo0winaifog.cloudfront.net/plotly-basic.js"></script>
+	</head>
+
+	<body style="padding: 0; margin: 0;">
+
+		<nav style="background: #444444; padding: 10px;">
+			<span style="color: #ffffff;">Funny Dog Breed Classifier</span>
+		</nav>
+
+		<div style="padding: 10px;">
+			<h1>Find the breed of a dog or a approviate breed for the owner.</h1>
+			<form action="/go" method="POST" enctype="multipart/form-data">
+				<input type="file" name="input-image" accept="image/x-png,image/gif,image/jpeg">
+				<button type="submit" class="btn btn-lg btn-success">Classify Image</button>
+			</form>
+		</div>
+		
+		{% block message %}
+        {% endblock %}
+	
+	</body>
+</html>
+
+ 

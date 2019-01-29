@@ -1,0 +1,14 @@
+{% extends "master.html" %}
+{% block title %}Results{% endblock %}
+
+{% block message %}
+    <hr />
+    <div style="padding: 0 10px;">
+    	<h4 class="text-center">You have selected the following image:</h4>
+    	<img style="width: 200px;" src="{{img_path}}" alt="{{file_img}}" />
+    	<p>{{predicted_class}}</p>
+    	<p>{{predicted_breed}}</p>
+    </div>
+{% endblock %}
+
+
