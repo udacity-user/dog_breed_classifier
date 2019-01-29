@@ -112,7 +112,7 @@ __NOTE:__ While some code has already been implemented to get you started, you w
 	python run.py
 	```  
 	
-3. Find the webapp in your browser [Link](http://localhost:3001/)
+3. Find the running webapp in your browser [http://localhost:3001/](http://localhost:3001/)
 
 ## Evaluation
 
